@@ -151,7 +151,7 @@ const Header = () => {
               ))}
               <div className='header-footer'>
               <p className='header-p-menu'>Powered by</p>
-              <a href="" target="_blank"> <img src={logo} alt="Husqvarna logo" className='header-logo-menu'/></a>
+              <a href="#logo" target="_blank"> <img src={logo} alt="Husqvarna logo" className='header-logo-menu'/></a>
               </div>
              
             </Menu>
@@ -192,7 +192,7 @@ const Header = () => {
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
               <p className='header-p header-p-res'>Powered by</p>
-              <a href="" target="_blank"> <img src={hugsi_logo} alt="Husqvarna logo" className='header-logo header-logo-resp'/></a>
+              <a href="#logo" target="_blank"> <img src={hugsi_logo} alt="Husqvarna logo" className='header-logo header-logo-resp'/></a>
               </IconButton>
             </Tooltip>
             

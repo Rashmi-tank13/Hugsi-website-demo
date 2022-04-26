@@ -25,7 +25,7 @@ const Item = styled(Paper)(({ theme }) => ({
     <Box sx={{ flexGrow: 1 ,backgroundColor:'#201e1e',display:'flex'}}>
       <Grid container spacing={3}>
         <Grid item xs >
-          <Item> <a href="#" target="_blank"> <img src={logo}
+          <Item> <a href="#logo" target="_blank"> <img src={logo}
          alt="Husqvarna logo" className='footer-logo' /></a>
 </Item>
         </Grid>
