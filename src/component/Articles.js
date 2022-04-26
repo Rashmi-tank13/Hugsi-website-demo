@@ -24,8 +24,8 @@ const Articles=()=> {
   
     <div className="w3-third">
       <div className="w3-card article-main-div">
-        <img src={img2} className='article-img'/>
-        <div className="w3-container article-h5-div" alt='article-2' > 
+        <img src={img2} className='article-img' alt='article-2'/>
+        <div className="w3-container article-h5-div"  > 
           <h5 className='article-h5'>Is the world getting greener?</h5>
         </div>
       </div>

@@ -71,14 +71,12 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+ 
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
@@ -190,7 +188,7 @@ const Header = () => {
           </Search>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <IconButton  sx={{ p: 0 }}>
               <p className='header-p header-p-res'>Powered by</p>
               <a href="#logo" target="_blank"> <img src={hugsi_logo} alt="Husqvarna logo" className='header-logo header-logo-resp'/></a>
               </IconButton>
