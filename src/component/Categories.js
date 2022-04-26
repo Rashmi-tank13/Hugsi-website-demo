@@ -20,7 +20,7 @@ const Categories = () => {
             <div className="w3-row">
                 <div className="w3-col m4  w3-center" style={{ display: 'flex' }}>
                     <div className='category-img-div'>
-                        <img src={percentage} className='categories-img'></img>
+                        <img src={percentage} className='categories-img' alt='No Image'></img>
                     </div>
                     <div className='category-content'>
                         <div  style={{ display: 'flex', alignItems: 'center' }}>
@@ -34,7 +34,7 @@ const Categories = () => {
                 </div>
                 <div className="w3-col m4  w3-center" style={{ display: 'flex' }}>
                 <div className='category-img-div'>
-                        <img src={smile} className='categories-img'></img>
+                        <img src={smile} className='categories-img' alt='No Image'></img>
                     </div>
                     <div className='category-content'>
                         <div  style={{ display: 'flex', alignItems: 'center' }}>
@@ -48,7 +48,7 @@ const Categories = () => {
                 </div>
                 <div className="w3-col m4  w3-center" style={{ display: 'flex' }}>
                 <div className='category-img-div'>
-                        <img src={distribution} className='categories-img'></img>
+                        <img src={distribution} className='categories-img' alt='No Image'></img>
                     </div>
                     <div className='category-content'>
                         <div  style={{ display: 'flex', alignItems: 'center' }}>
@@ -64,7 +64,7 @@ const Categories = () => {
             <div className="w3-row category-second-list">
                 <div className="w3-col m4  w3-center" style={{ display: 'flex' }}>
                     <div className='category-img-div'>
-                        <img src={user} className='categories-img'></img>
+                        <img src={user} className='categories-img' alt='No Image'></img>
                     </div>
                     <div className='category-content'>
                         <div  style={{ display: 'flex', alignItems: 'center' }}>
@@ -78,7 +78,7 @@ const Categories = () => {
                 </div>
                 <div className="w3-col m4  w3-center" style={{ display: 'flex' }}>
                 <div className='category-img-div'>
-                        <img src={tree} className='categories-img'></img>
+                        <img src={tree} className='categories-img' alt='No Image'></img>
                     </div>
                     <div className='category-content'>
                         <div  style={{ display: 'flex', alignItems: 'center' }}>
@@ -92,7 +92,7 @@ const Categories = () => {
                 </div>
                 <div className="w3-col m4  w3-center" style={{ display: 'flex' }}>
                 <div className='category-img-div'>
-                        <img src={grass} className='categories-img'></img>
+                        <img src={grass} className='categories-img' alt='No Image'></img>
                     </div>
                     <div className='category-content'>
                         <div  style={{ display: 'flex', alignItems: 'center' }}>

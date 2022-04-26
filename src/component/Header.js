@@ -17,6 +17,8 @@ import "../../src/styles.css"
 
 const pages = ['Ranking', 'How it works', 'Insights','Groene Stad Challenge','Community'];
 
+const menu = ['Home','Ranking', 'How it works', 'Insights','Groene Stad Challenge','Community','Partners'];
+
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -34,7 +36,7 @@ const Search = styled('div')(({ theme }) => ({
 }));
 
 const SearchIconWrapper = styled('div')(({ theme }) => ({
-  padding: theme.spacing(0, 2),
+  
   height: '100%',
   position: 'absolute',
   pointerEvents: 'none',
@@ -82,9 +84,7 @@ const Header = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+ 
 
   const header = require('../images/header-logo.png');
   const hugsi_logo = require('../images/hugsi-header-logo.png')
@@ -143,9 +143,9 @@ const Header = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu} sx={{color:'#424242',width:'27rem'}}>
-                  <Typography textAlign="center">{page}</Typography>
+              {menu.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu} className='menu-item'>
+                  <Typography className='menu-item-li'>{page}</Typography>
                   
                 </MenuItem>
               ))}

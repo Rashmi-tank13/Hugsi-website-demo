@@ -15,7 +15,7 @@ const Articles=()=> {
 <div className="w3-row-padding w3-margin-top article-main">
     <div className="w3-third">
       <div className="w3-card article-main-div">
-        <img src={img1} className='article-img'/>
+        <img src={img1} className='article-img' alt='Image 1'/>
         <div className="w3-container article-h5-div">
           <h5 className='article-h5'>The Green KPI's HUGSI</h5>
         </div>
@@ -25,7 +25,7 @@ const Articles=()=> {
     <div className="w3-third">
       <div className="w3-card article-main-div">
         <img src={img2} className='article-img'/>
-        <div className="w3-container article-h5-div" > 
+        <div className="w3-container article-h5-div" alt='Image 2' > 
           <h5 className='article-h5'>Is the world getting greener?</h5>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Articles=()=> {
   
     <div className="w3-third">
       <div className="w3-card article-main-div">
-        <img src={img1} className='article-img'/>
+        <img src={img1} className='article-img' alt='Image 3'/>
         <div className="w3-container article-h5-div">
           <h5 className='article-h5'>The Green KPI's HUGSI</h5>
         </div>
